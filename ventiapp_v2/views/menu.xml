@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <menuitem id="menu_ventiapp_root" 
+            name="Ventiapp"
+            web_icon="ventiapp_v2,static/description/icon.png" 
+            sequence="0"/>
+
+  <menuitem id="menu_credentials_master" 
+            name="Detalle credenciales"
+            parent="menu_ventiapp_root" 
+            sequence="0"/>                                   
+</odoo>
