@@ -11,7 +11,7 @@ _logger = logging.getLogger(__name__)
 
 def call_api(quantity_available, sku, token):
     def call_it():
-        endpoint = "api/stock/updatestock"
+        endpoint = "api/stock/updatestock?source=odoo"
         url = BASE_URL + endpoint
         bearer_token = "Bearer " + token
 
